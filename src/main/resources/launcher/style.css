@@ -1,0 +1,93 @@
+.root {
+    -fx-background-color: #1b1d23;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f2f2f2;
+}
+
+.primary-button {
+    -fx-background-color: #4c8bf5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 24;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #3b74d6;
+}
+
+.sidebar {
+    -fx-background-color: #14161b;
+}
+
+.nav-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #cfd2d8;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10 14;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+}
+
+.nav-button:hover {
+    -fx-background-color: #1f222a;
+}
+
+.nav-button:selected {
+    -fx-background-color: #2a2d36;
+    -fx-text-fill: white;
+}
+
+.username-label {
+    -fx-text-fill: #8b8f99;
+    -fx-font-size: 12px;
+}
+
+.device-code {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4c8bf5;
+    -fx-padding: 10 20;
+    -fx-background-color: #14161b;
+    -fx-background-radius: 6;
+}
+
+.error-text {
+    -fx-text-fill: #f26d6d;
+}
+
+.hint-text {
+    -fx-text-fill: #8b8f99;
+    -fx-font-size: 11px;
+}
+
+.mod-row {
+    -fx-background-color: #14161b;
+    -fx-background-radius: 6;
+    -fx-padding: 10 14;
+}
+
+.mod-name {
+    -fx-text-fill: #e4e5e8;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.mod-name-disabled {
+    -fx-text-fill: #6b6f78;
+    -fx-font-size: 13px;
+}
+
+.scroll-pane, .scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+Label {
+    -fx-text-fill: #e4e5e8;
+}
